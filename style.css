@@ -2,9 +2,100 @@
  * Your Styles Here
  * ----------------------------------- */
 
+/* Header Main */
+body{
+  margin: 0;
+
+}
+
+
+.site-title{
+  text-align: center;
+  font-family: fantasy;
+  color: #7D1935;
+
+}
+
+#main-header{
+      background-color: #F5F3EE;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border: 0;
+      padding: 5px;
+
+
+    }
+
+.tagline{
+  text-align: center;
+  font-family: fantasy;
+  color: #7D1935;
+}
+
+  /* Main Content */
+  #main-content{
+    background-color: #F5F3EE;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+    padding: 5px;
+    float: left;
+    width: 80%;
+
+
+  }
+
+.main-content-section{
+color: #7D1935;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+.section-title{
+  background-color: #7D1935;
+  color: #F5F3EE;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 0;
+  border: 0;
+
+}
+
+.section-content{
+line-height: 1.5;
+}
+
+.citation{
+text-align: right;
+}
+
+/* Sidebar */
+
+#sidebar{
+  margin-bottom: auto;
+  background-color: #4A96AD;
+  float: right;
+  width: auto;
+  padding: 10px
 
 
 
 
+}
 
- 
+.sidebar-nav{
+
+}
+
+.nav-link-list-item{
+
+}
+
+.nav-link{
+
+}

@@ -42,7 +42,7 @@ body{
     border: 0;
     padding: 5px;
     float: left;
-    width: 80%;
+    width: 84%;
 
 
   }
@@ -56,12 +56,14 @@ margin-right: 10px;
 }
 
 .section-title{
+
   background-color: #7D1935;
   color: #F5F3EE;
   width: 100%;
   height: auto;
   padding: 5px;
   margin: 0;
+  
   border: 0;
 
 }
@@ -77,11 +79,12 @@ text-align: right;
 /* Sidebar */
 
 #sidebar{
-  margin-bottom: auto;
+  margin: 0;
   background-color: #4A96AD;
   float: right;
   width: auto;
   padding: 10px
+
 
 
 

@@ -7,6 +7,16 @@ body{
   margin: 0;
 
 }
+a:link{
+  color: #7D1935;
+}
+
+a:hover{
+  color: red;
+}
+a:visited{
+  color: darkblue;
+}
 
 
 .site-title{
@@ -33,17 +43,23 @@ body{
   color: #7D1935;
 }
 
+
+
   /* Main Content */
+
+
   #main-content{
     background-color: #F5F3EE;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 0;
     border: 0;
     padding: 5px;
+    padding-left: 0;
+    margin-left: 0;
     float: left;
-    width: 84%;
-
+    padding-right: 0;
+    position: absolute;
 
   }
 
@@ -55,16 +71,21 @@ margin-right: 10px;
 
 }
 
-.section-title{
+p.left-tab{
+  margin-left: 10px;
+}
 
+.section-title{
   background-color: #7D1935;
   color: #F5F3EE;
   width: 100%;
   height: auto;
   padding: 5px;
-  margin: 0;
-  
   border: 0;
+  margin-left: 0;
+  padding-left: 5px;
+  margin-right: 5px;
+  padding-right: 5px;
 
 }
 
@@ -72,30 +93,60 @@ margin-right: 10px;
 line-height: 1.5;
 }
 
-.citation{
-text-align: right;
+.citation a:hover{
+/* need bettersolution*/
+ color: red;
+
 }
+
+
+
+
 
 /* Sidebar */
 
 #sidebar{
-  margin: 0;
+  position: relative;
+  width: 20%;
   background-color: #4A96AD;
   float: right;
-  width: auto;
-  padding: 10px
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 5px;
 
 
+  /* Need Better solution to extend sidebar all the way to the bottom */
+  padding-bottom: 510px;
 
+}
 
+#sb-title{
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
 
+/* Float clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .sidebar-nav{
 
+
+
+
 }
 
 .nav-link-list-item{
+  color: #F5F3EE;
+  font-family:serif;
+  font-size: 19px;
+  hight: 1.2;
+   margin:0 0 10px 0;
 
 }
 
